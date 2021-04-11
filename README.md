@@ -7,6 +7,8 @@
   Flexfrisør Website
 </h1>
 
+This project is run by Code Shape, and is using NextJS as the React framework. It's using Firebase for user authentication and it is deployed with Netlify.  
+
 ## Getting Started
 
 First, install all necessary dependencies:
