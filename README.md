@@ -1,7 +1,21 @@
+<p align="center">
+  <a href="">
+    <img alt="Flexfrisør" src="https://github.com/Code-Shape/flexfrisor/blob/main/public/images/logos/logo.png" width="100" />
+  </a>
+</p>
+<h1 align="center">
+  Flexfrisør Website
+</h1>
 
 ## Getting Started
 
-First, run the development server:
+First, install all necessary dependencies:
+
+```bash
+yarn install
+```
+
+When the dependencies are installed you will be able to start the developement server: 
 
 ```bash
 yarn dev
@@ -9,8 +23,16 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Useful Information
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+When installing new dependencies you will be using the following command: 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+yarn add
+```
+
+Example for the dependency "styled-components": 
+
+```bash
+yarn add styled-components
+```
