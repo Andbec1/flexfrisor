@@ -4,7 +4,6 @@ import HeroSection from "../components/sections/heroSection"
 import SlideCard from "../components/cards/slideCard"
 import InfoCounter from "../components/additionals/infoCounter"
 import FeedbackSection from "../components/sections/feedbackSection"
-import photo from "../../public/images/logos/logo02_v003.png"
 
 const Wrapper = styled.div`
  padding-top: 5rem; 
@@ -32,7 +31,7 @@ export default function Home() {
       <Head>
         <title>Flexfrisør - Home</title>
       </Head>
-      <img src={photo} />
+      <img src="images/icons/Scissor_v001.svg" />
       <HeroSection />
       <SlideWrapper>
         <SlideCard 
