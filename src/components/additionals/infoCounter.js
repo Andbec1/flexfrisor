@@ -4,18 +4,26 @@ import { H3, BodyMain } from "../styles/TextStyles"
 const Wrapper = styled.div``
 
 const IconWrapper = styled.div`
+display: grid;
+justify-items: center;
+align-items: center;
 background: #F1E579;
-width: 8rem;
-height: 8rem;
+width: 9rem;
+height: 9rem;
 border-radius: 50%;
 margin: 0 auto;
+
+.icon {
+  width: 7rem;
+  height: 7rem;
+}
 `
 
-const Icon = styled.div``
 
 const Title = styled(H3)`
 color: #E78413;
 text-align: center;
+margin-top: 1rem;
 `
 
 const Text = styled(BodyMain)`
@@ -28,8 +36,8 @@ export default function infoCounter(props) {
     return (
       <Wrapper>
         <IconWrapper>
-            <Icon
-                Image src={icon || "/static/images/logo02_v003.png" }
+            <img src={icon || "images/logos/logo02_v003.png" } 
+            className="icon"
             />
         </IconWrapper>
         <Title>{title || "Flexfrisør"}</Title>

@@ -1,10 +1,13 @@
 import styled from "styled-components"
 import { BodyMain } from "../styles/TextStyles"
 
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+margin: 0 5rem;
+`
 
 const Quote = styled.div`
 width: 30rem;
+padding: 0 4rem;
 `
 
 const Text = styled(BodyMain)`

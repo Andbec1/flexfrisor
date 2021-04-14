@@ -22,7 +22,7 @@ padding-left: 20rem;
  }
 
  .frisørfaget {
-    color: #F1E579;
+    color: #E4B603;
   }
 `
 
@@ -38,12 +38,12 @@ export default function heroSection() {
       <Intro>Vi får <span className="fleksibilitet">fleksibilitet</span> ind i <span className="frisørfaget">frisørfaget</span></Intro>
       <CardWrapper>
         <HeroCard 
-            iconImage="/static/icons/Saloon_v001.svg" 
+            iconImage="images/icons/Scissor_v001.svg" 
             text="Til dig som
             er frisør"
         />
         <HeroCard 
-          iconImage="/static/icons/Saloon_v001.svg"
+          iconImage="images/icons/barberPole_v001.svg"
           text="Til dig som er mester"
         />
         </CardWrapper>
