@@ -24,6 +24,13 @@ font-size: 1.3em;
 .text{
   padding: 0 2rem;
 }
+
+a {
+  color: black;
+  color: black;
+font-size: 1.3em;
+padding: 0 2rem;
+}
 `
 
 export default function Header() {
@@ -36,7 +43,7 @@ export default function Header() {
       </Logo>
       <TextWrapper>
       <Link href="/hairstylist" className="text"><a>Frisør</a></Link>
-        <text className="text">Mester</text>
+      <Link href="/saloon" className="text"><a>Mester</a></Link>
         <text className="text">Login</text>
         <text className="text">Opret bruger</text>
         <text className="text">Om os</text>

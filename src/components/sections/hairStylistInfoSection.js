@@ -4,7 +4,7 @@ import { BodyMain, H2, BodyIntro } from "../styles/TextStyles"
 
 const Wrapper = styled.div`
     padding-top: 5rem;
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
     background-size: cover;
     background-position: center;
 z-index: -1;
