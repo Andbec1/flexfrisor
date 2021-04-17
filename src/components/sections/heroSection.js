@@ -37,7 +37,7 @@ export default function heroSection() {
     <Wrapper>
       <Intro>Vi får <span className="fleksibilitet">fleksibilitet</span> ind i <span className="frisørfaget">frisørfaget</span></Intro>
       <CardWrapper>
-        <HeroCard 
+        <HeroCard
             iconImage="images/icons/Scissor_v001.svg" 
             text="Til dig som
             er frisør"

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { H4 } from "../styles/TextStyles"
+import Link from 'next/link'
 
 const Wrapper = styled.div`
 background: white;
@@ -29,10 +30,12 @@ export default function Header() {
   return (
     <Wrapper>
       <Logo>
-        <img src="images/logos/logo02_v003.png" className="logo"/>
+      <Link href="/">
+        <img src="images/logos/logo02_v003.png" className="logo"/> 
+      </Link>
       </Logo>
       <TextWrapper>
-        <text className="text">Frisør</text>
+      <Link href="/hairstylist" className="text"><a>Frisør</a></Link>
         <text className="text">Mester</text>
         <text className="text">Login</text>
         <text className="text">Opret bruger</text>
