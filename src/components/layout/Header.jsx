@@ -46,7 +46,7 @@ export default function Header() {
       <Link href="/saloon" className="text"><a>Mester</a></Link>
         <text className="text">Login</text>
         <text className="text">Opret bruger</text>
-        <text className="text">Om os</text>
+      <Link href="/about" className="text"><a>Om os</a></Link>
       </TextWrapper>
     </Wrapper>
   )
