@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 
 const SlideWrapper = styled.div`
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 justify-content: center;
 justify-self: center;
 align-content: center;
@@ -31,7 +31,7 @@ export default function SlideSection() {
             text04="Helbred"
             text05="Læs mere"
             buttonTextColor="#E78413"
-            link="https://codeshape.io"
+            link="/hairstylist"
             titleImage="images/icons/Scissor_v001.svg"
             icon01="images/icons/wings_v001.svg"
             icon02="images/icons/moneyBags_v001.svg"
@@ -51,7 +51,7 @@ export default function SlideSection() {
             text04="Rekruttering"
             text05="Læs mere"
             buttonTextColor="#E4B603"
-            link="https://codeshape.io"
+            link="/saloon"
             titleImage="images/icons/barberPole_v001.svg"
             icon01="images/icons/Scissor_v001.svg"
             icon02="images/icons/moneyBags_v001.svg"

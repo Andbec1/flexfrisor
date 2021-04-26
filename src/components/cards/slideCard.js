@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { H3 } from "../styles/TextStyles"
+import Link from 'next/link'
 
 const Wrapper = styled.div`
  padding: 2rem; 
@@ -7,9 +8,10 @@ const Wrapper = styled.div`
 `
 
 const Card = styled.div`
-background: ${props => props.backgroundColor || "turquoise"};
+background: ${props => props.backgroundColor || "#000"};
 border-radius: 30px;
-width: 40rem;
+max-width: 45vw;
+min-width: 25rem;
 padding-bottom: 2rem;
 `
 
@@ -57,12 +59,16 @@ const InfoBox = styled.div`
     Background: #fff;
     color: #000;
     max-width: 30rem;
-    margin: 2rem auto;
+    margin: 2rem;
     border-radius: 30px;
-    padding: 3rem;
+    padding: 2rem;
+    height: 10rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 `
 
-const Link = styled.div`
+const Button = styled.div`
 width: 8rem;
  margin: 0 auto;
  background: #fff;
@@ -76,7 +82,7 @@ export default function slideCard(props) {
     const { titleImage, title, backgroundColor, icon01, icon02, icon03, icon04, text, text01, text02, text03, text04, text05, buttonTextColor, link } = props
   return (
     <Wrapper>
-        <Card>
+        <Card backgroundColor={backgroundColor}>
             <TitleWrapper>
                 <Title>{title || "Flexfrisør"}</Title>
                 <img
@@ -117,9 +123,11 @@ export default function slideCard(props) {
         <InfoBox>
             <Text> {text || "Læs mere nedenfor"} </Text>
         </InfoBox>
-        <Link to={link || "/"}>
+        <Button buttonTextColor={buttonTextColor}>
+        <Link href={link || "/"} >
             <Text> {text05 || "Læs mere"} </Text>
         </Link>
+        </Button>
         </Card>
     </Wrapper>
   )

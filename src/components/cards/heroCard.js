@@ -1,9 +1,8 @@
 import styled from "styled-components"
 import { H2 } from "../styles/TextStyles"
+import Link from 'next/link'
 
 const Wrapper = styled.div`
- padding-top: 5rem;
- padding-bottom: 8rem;
  margin: 0 auto;
  max-width: 70rem;
 `
@@ -32,9 +31,10 @@ padding-right: 2rem;
 `
 
 export default function heroCard(props) {
-    const { iconImage, text } = props
+    const { iconImage, text, link } = props
   return (
     <Wrapper>
+      <Link href={link || "/"} >
         <Card>
         <img
             className="icon"
@@ -42,6 +42,7 @@ export default function heroCard(props) {
           />
             <Text>{text || "Flexfrisør"}</Text>
         </Card>
+        </Link>
     </Wrapper>
   )
 }

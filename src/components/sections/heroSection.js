@@ -5,17 +5,21 @@ import { H1 } from "../styles/TextStyles"
 
 const Wrapper = styled.div`
  padding-top: 10rem; 
+ padding-left: 1.875rem;
+ padding-right: 1.875rem;
  margin: 0 auto;
  background: url(https://hips.hearstapps.com/ghk.h-cdn.co/assets/15/50/1449507755-cutting-wet-hair-bad.jpg);
 background-size: cover;
 background-position: center;
 z-index: -1;
+padding-bottom: 8rem;
 `
 
 const Intro = styled(H1)`
 text-transform: uppercase;
 max-width: 60rem;
-padding-left: 20rem;
+margin: 0 auto;
+padding-bottom: 5rem;
 
  .fleksibilitet {
    color: #E78413;
@@ -28,7 +32,7 @@ padding-left: 20rem;
 
 const CardWrapper = styled.div`
 display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 2rem;
 `
 
@@ -41,10 +45,12 @@ export default function heroSection() {
             iconImage="images/icons/Scissor_v001.svg" 
             text="Til dig som
             er frisør"
+            link="/hairstylist"
         />
         <HeroCard 
           iconImage="images/icons/barberPole_v001.svg"
           text="Til dig som er mester"
+          link="/saloon"
         />
         </CardWrapper>
     </Wrapper>

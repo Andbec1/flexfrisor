@@ -1,7 +1,10 @@
 import styled from "styled-components"
 import { H3, BodyMain } from "../styles/TextStyles"
 
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+padding: 0;
+margin: 0;
+`
 
 const IconWrapper = styled.div`
 display: grid;

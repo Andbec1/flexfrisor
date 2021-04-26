@@ -2,8 +2,7 @@ import styled from "styled-components"
 import Head from 'next/head'
 import { H2, BodyMain } from "../components/styles/TextStyles"
 
-const Wrapper = styled.div`
- padding-top: 0; 
+const Wrapper = styled.div` 
  margin: 0 auto;
  background: white;
  padding-bottom: 5rem;
@@ -21,14 +20,14 @@ padding-bottom: 3rem;
 const Fill = styled.div`
 margin: 0 auto;
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 justify-items: center;
 align-items: center;
+width: 80vw;
 `
 
 const Text = styled(BodyMain)`
 color: #000;
-width: 50vw;
 padding-bottom: 3rem;
 `
 
