@@ -44,7 +44,7 @@ export default function Header() {
       <TextWrapper>
       <Link href="/hairstylist" className="text"><a>Frisør</a></Link>
       <Link href="/saloon" className="text"><a>Mester</a></Link>
-        <text className="text">Login</text>
+      <Link href="/login" className="text"><a>Login</a></Link>
         <text className="text">Opret bruger</text>
       <Link href="/about" className="text"><a>Om os</a></Link>
       </TextWrapper>
