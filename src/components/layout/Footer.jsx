@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   title: [
     { name: "placeholder", href: "#" },
@@ -170,8 +169,8 @@ export default function Example() {
         </div>
         <div className="mt-12 border-t border-yellow-200 pt-8">
           <p className="text-base text-yellow-400 xl:text-center">
-            &copy; {new Date().getFullYear()} Workflow, Inc. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Flexfrisør. Alle rettigheder
+            forbeholdes.
           </p>
         </div>
       </div>
