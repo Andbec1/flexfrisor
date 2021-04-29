@@ -44,13 +44,13 @@ export default function Login() {
         <LoginCard 
         iconImage="images/icons/Scissor_v001.svg"
         text="Frisør"
-        link=""
+        link="/loginhairstylist"
         backgroundColor="#E78413"
         />
         <LoginCard 
         iconImage="images/icons/Saloon_v001.svg"
         text="Mester"
-        link=""
+        link="/loginsaloon"
         backgroundColor="#E4B603"
         />
       </CardWrapper>
