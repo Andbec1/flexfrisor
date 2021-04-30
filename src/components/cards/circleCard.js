@@ -11,46 +11,30 @@ padding: 2rem;
 display: grid;
 align-items: center;
 justify-items: center;
+width: 15rem;
+height: 15rem;
+transition: .3s ease;
+border-radius: 50%;
 
-@media only screen and (max-width: 450px) {
-    width: 22rem;
-    height: 22rem;
-    border-radius: 30px;   
-}
-
-@media only screen and (min-width: 450px) {
-    width: 14rem;
-    height: 14rem;
-    transition: .3s ease;
-    border-radius: 50%;
-
-    .text {
+   .text {
         display: none;
         transition-delay: .3s;
     }
     
-    .line {
-        display: none;
-    }
-    
     :hover {
-        width: 22rem;
-        height: 22rem;
-    
-        .line {
-            display: block;
-        }
+        width: 24rem;
+        height: 24rem;
+        border-radius: 30px;
     
         .text {
             display: grid;
         }
     }
-}
 `
 
 const TitleWrapper = styled.div`
 display: grid;
-justify-content: center;
+justify-items: center;
 align-items: center;
 
 .titleIcon {
@@ -69,11 +53,6 @@ const Text = styled.div`
 text-align: center;
 `
 
-const Line = styled.div`
-height: 1px;
-background: #fff;
-`
-
 
 export default function CircleCard(props) {
     const { titleImage, title, text, backgroundColor } = props
@@ -87,7 +66,6 @@ export default function CircleCard(props) {
                 />
                 <Title>{title || "Flexfrisør"}</Title>
             </TitleWrapper>
-            <Line className="line"></Line>
             <Text className="text"> {text || "Flexfrisør"} </Text>
         </Card>
     </Wrapper>
