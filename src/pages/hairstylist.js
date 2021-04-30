@@ -18,7 +18,7 @@ export default function Hairstylist() {
         <Head>
           <title>Flexfrisør - Frisør</title>
         </Head>
-        <HairStylistNav />
+        {/* <HairStylistNav /> */}
         <HairStylistIntroSection />
         <HairstylistInfoSection />
         <IncomeSection />

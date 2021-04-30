@@ -17,84 +17,84 @@ import {
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
-// const features = [
-//   {
-//     name: "Analytics",
-//     href: "#",
-//     description:
-//       "Get a better understanding of where your traffic is coming from.",
-//     icon: ChartBarIcon,
-//   },
-//   {
-//     name: "Engagement",
-//     href: "#",
-//     description: "Speak directly to your customers in a more meaningful way.",
-//     icon: CursorClickIcon,
-//   },
-//   {
-//     name: "Security",
-//     href: "#",
-//     description: "Your customers' data will be safe and secure.",
-//     icon: BookOpenIcon,
-//   },
-//   {
-//     name: "Integrations",
-//     href: "#",
-//     description: "Connect with third-party tools that you're already using.",
-//     icon: ViewGridIcon,
-//   },
-//   {
-//     name: "Automations",
-//     href: "#",
-//     description:
-//       "Build strategic funnels that will drive your customers to convert",
-//     icon: RefreshIcon,
-//   },
-// ];
-// const callsToAction = [
-//   { name: "Watch Demo", href: "#", icon: PlayIcon },
-//   { name: "Contact Sales", href: "#", icon: PhoneIcon },
-// ];
-// const resources = [
-//   {
-//     name: "Tilmeldelse",
-//     description: "Tilmeld dig hvad end du er frisør eller mester.",
-//     href: "#",
-//     icon: PlusCircleIcon,
-//   },
-//   {
-//     name: "Nyheder",
-//     description: "Læs mere om nye tiltag hos Flexfrisør.",
-//     href: "#",
-//     icon: BookmarkAltIcon,
-//   },
-//   {
-//     name: "Events",
-//     description:
-//       "Se hvilke møder og andre begivenheder vi planlægger i nærheden af dig.",
-//     href: "#",
-//     icon: CalendarIcon,
-//   },
-//   {
-//     name: "Blog",
-//     description: "Lær om nye spændende tiltag og underholdende historier.",
-//     href: "#",
-//     icon: BookOpenIcon,
-//   },
-// ];
-// const recentPosts = [
-//   { id: 1, name: "Sådan bliver du en bedre frisør", href: "#" },
-//   {
-//     id: 2,
-//     name: "Har du også styr på dine timer?",
-//     href: "#",
-//   },
-//   { id: 3, name: "Den rigtige saks", href: "#" },
-// ];
+ const features = [
+   {
+     name: "Analytics",
+     href: "#",
+     description:
+       "Get a better understanding of where your traffic is coming from.",
+     icon: ChartBarIcon,
+   },
+   {
+     name: "Engagement",
+     href: "#",
+     description: "Speak directly to your customers in a more meaningful way.",
+     icon: CursorClickIcon,
+   },
+   {
+     name: "Security",
+     href: "#",
+     description: "Your customers' data will be safe and secure.",
+     icon: BookOpenIcon,
+   },
+   {
+     name: "Integrations",
+     href: "#",
+     description: "Connect with third-party tools that you're already using.",
+     icon: ViewGridIcon,
+   },
+   {
+     name: "Automations",
+     href: "#",
+     description:
+       "Build strategic funnels that will drive your customers to convert",
+     icon: RefreshIcon,
+   },
+ ];
+ const callsToAction = [
+   { name: "Watch Demo", href: "#", icon: PlayIcon },
+   { name: "Contact Sales", href: "#", icon: PhoneIcon },
+ ];
+ const resources = [
+   {
+     name: "Tilmeldelse",
+     description: "Tilmeld dig hvad end du er frisør eller mester.",
+     href: "#",
+     icon: PlusCircleIcon,
+   },
+   {
+     name: "Nyheder",
+     description: "Læs mere om nye tiltag hos Flexfrisør.",
+     href: "#",
+     icon: BookmarkAltIcon,
+   },
+   {
+     name: "Events",
+     description:
+       "Se hvilke møder og andre begivenheder vi planlægger i nærheden af dig.",
+     href: "#",
+     icon: CalendarIcon,
+   },
+   {
+     name: "Blog",
+     description: "Lær om nye spændende tiltag og underholdende historier.",
+     href: "#",
+     icon: BookOpenIcon,
+   },
+ ];
+ const recentPosts = [
+   { id: 1, name: "Sådan bliver du en bedre frisør", href: "#" },
+   {
+     id: 2,
+     name: "Har du også styr på dine timer?",
+     href: "#",
+   },
+   { id: 3, name: "Den rigtige saks", href: "#" },
+ ];
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
+ function classNames(...classes) {
+   return classes.filter(Boolean).join(" ");
+ }
 
 export default function Example() {
   return (
@@ -105,7 +105,7 @@ export default function Example() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
-                  <Link href="/">
+                  <Link href="/hairstylist">
                     <a>
                       <img
                         className="h-8 w-auto sm:h-10"
