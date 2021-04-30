@@ -5,7 +5,7 @@ import BenefitsCard from "./benefitsCard"
 const Wrapper = styled.div`
  padding-bottom: 8rem;
  margin: 0 auto;
-width: 40rem;
+max-width: 40rem;
 `
 
 const Card = styled.div`
@@ -14,16 +14,30 @@ border-radius: 30px;
 `
 
 const Title = styled(H2)`
-padding: 2rem 0 0 5rem;
+padding: 2rem;
 color: #E4B603;
-width: 17rem;
-padding-right: 2rem;
+text-align: center;
 font-weight: normal;
 `
 
 const Text = styled(BodyMain)`
 color: #000;
-padding: 1rem 5rem 0 5rem;
+height: 14rem;
+width: 30rem;
+margin: 0 auto;
+`
+
+const Text02 = styled(BodyMain)`
+height: 2rem;
+margin-top: -2.5rem;
+margin-left: 2rem;
+color: #000;
+font-size: 1em;
+
+.dofk {
+    color: #0034FF;
+    text-decoration: underline;
+}
 `
 
 export default function SalaryCard01(props) {
@@ -34,6 +48,7 @@ export default function SalaryCard01(props) {
             <Title>{title || "Flexfrisør"}</Title>
             <Text>{text || "Flexfrisør"}</Text>
             <BenefitsCard />
+            <Text02></Text02>
         </Card>
     </Wrapper>
   )

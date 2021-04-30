@@ -15,6 +15,8 @@ padding: 3rem 5rem;
 background: #E4B603;
 border-radius: 30px 30px 0 0;
 width: 30rem;
+height: 50rem;
+display: grid;
 `
 
 const CardLine = styled.div`

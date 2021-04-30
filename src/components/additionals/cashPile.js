@@ -2,7 +2,8 @@ import styled from "styled-components"
 import { BodyMain } from "../styles/TextStyles"
 
 const Wrapper = styled.div`
-position: absolute;
+position: relative;
+margin: 0 auto;
 `
 
 const CashWrapper = styled.div`

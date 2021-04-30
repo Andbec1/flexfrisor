@@ -2,13 +2,14 @@ import styled from "styled-components"
 import { H1, H3, BodyMain } from "../styles/TextStyles"
 
 const Wrapper = styled.div`
-margin-left: 20rem;
 padding: 2rem;
 background: url(https://i.pinimg.com/originals/c5/5a/de/c55ade0f3c23b62ff5b7eb6af21ecdc6.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 z-index: 5;
+display: grid;
+justify-items: center;
 `
 
 const Title = styled(H1)`
@@ -21,7 +22,6 @@ margin-bottom: 5rem;
 const Text01 = styled.div`
 width: 30rem;
 margin-bottom: 5rem;
-margin-left: 28rem;
 `
 
 const Text02 = styled.div`

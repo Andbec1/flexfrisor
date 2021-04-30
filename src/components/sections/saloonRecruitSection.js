@@ -8,6 +8,8 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 z-index: 5;
+display: grid;
+justify-items: center;
 `
 
 const Title = styled(H1)`
@@ -15,13 +17,11 @@ color: #E4B603;
 text-align: center;
 font-weight: normal;
 margin-bottom: 5rem;
-margin-right: 20rem;
 `
 
 const Text01 = styled.div`
 width: 30rem;
 margin-bottom: 5rem;
-margin-left: 35rem;
 `
 
 const Text02 = styled.div`
