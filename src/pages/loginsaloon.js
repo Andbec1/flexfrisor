@@ -11,14 +11,14 @@ const Wrapper = styled.div`
 const TitleWrapper = styled.div`
 padding-top: 5rem;
 display: grid;
-grid-template-columns: 7rem auto;
+grid-template-columns: 8rem auto;
 justify-content: center;
 align-items: center;
 margin-bottom: 2rem;
 
 .scissor {
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
 }
 `
 
@@ -45,7 +45,7 @@ export default function LoginSaloon() {
         <title>Flexfrisør - Login Mester</title>
       </Head>
    <TitleWrapper>
-    <img src="images/icons/Saloon_v001.svg" className="scissor"/>
+    <img src="images/icons/gold/barberPole_gold_v001.svg" className="scissor"/>
     <Title>Mester</Title>
    </TitleWrapper>
    <LoginWrapper>

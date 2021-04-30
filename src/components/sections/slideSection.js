@@ -32,11 +32,11 @@ export default function SlideSection() {
             text05="Læs mere"
             buttonTextColor="#E78413"
             link="/hairstylist"
-            titleImage="images/icons/Scissor_v001.svg"
-            icon01="images/icons/wings_v001.svg"
-            icon02="images/icons/moneyBags_v001.svg"
-            icon03="images/icons/flexibility_v001.svg"
-            icon04="images/icons/heart_v001.svg"
+            titleImage="images/icons/white/Scissor_white_v001.svg"
+            icon01="images/icons/white/wings_white_v001.svg"
+            icon02="images/icons/white/moneyBags_white_v001.svg"
+            icon03="images/icons/white/flexibility_white_v001.svg"
+            icon04="images/icons/white/heart_white_v001.svg"
           />
           <SlideCard 
             title="Find frisør"
@@ -52,11 +52,11 @@ export default function SlideSection() {
             text05="Læs mere"
             buttonTextColor="#E4B603"
             link="/saloon"
-            titleImage="images/icons/barberPole_v001.svg"
-            icon01="images/icons/Scissor_v001.svg"
-            icon02="images/icons/moneyBags_v001.svg"
-            icon03="images/icons/calc.svg"
-            icon04="images/icons/recruit.svg"
+            titleImage="images/icons/white/barberPole_white_v001.svg"
+            icon01="images/icons/white/Scissor_white_v001.svg"
+            icon02="images/icons/white/moneyBags_white_v001.svg"
+            icon03="images/icons/white/calc.svg"
+            icon04="images/icons/white/recruit.svg"
           />
         </SlideWrapper>
       </Wrapper>

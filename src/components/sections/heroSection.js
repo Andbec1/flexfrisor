@@ -42,13 +42,13 @@ export default function heroSection() {
       <Intro>Vi får <span className="fleksibilitet">fleksibilitet</span> ind i <span className="frisørfaget">frisørfaget</span></Intro>
       <CardWrapper>
         <HeroCard
-            iconImage="images/icons/Scissor_v001.svg" 
+            iconImage="images/icons/yellow/Scissor_yellow_v001.svg" 
             text="Til dig som
             er frisør"
             link="/hairstylist"
         />
         <HeroCard 
-          iconImage="images/icons/barberPole_v001.svg"
+          iconImage="images/icons/yellow/barberPole_yellow_v001.svg"
           text="Til dig som er mester"
           link="/saloon"
         />

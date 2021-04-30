@@ -90,7 +90,7 @@ export default function SaloonInfoSection() {
         <CardWrapper>
   <Card01>
 <CircleCard
-titleImage="images/icons/Scissor_v001.svg"
+titleImage="images/icons/white/Scissor_white_v001.svg"
 backgroundColor="#E4B603"
 title="Hvorfor?"
 text="FlexFrisør' vigtigste opgave vil være at servicere
@@ -101,7 +101,7 @@ værdier, – frihed, indtjening, fleksibilitet og helbred."
 </Card01>
 <Card02>
 <CircleCard 
-titleImage="images/icons/moneyBags_v001.svg"
+titleImage="images/icons/white/moneyBags_white_v001.svg"
 backgroundColor="#E4B603"
 title="Løn"
 text="En frisør leje timepris er en effektiv lønomkostning. Vikaren er kun på arbejde når du har behov for det, så du har kun lønomkostninger, når der er kunder i salonen."
@@ -109,7 +109,7 @@ text="En frisør leje timepris er en effektiv lønomkostning. Vikaren er kun på
 </Card02>
 <Card03>
 <CircleCard 
-titleImage="images/icons/calc.svg"
+titleImage="images/icons/white/calc.svg"
 backgroundColor="#E4B603"
 title="Lønberegning"
 text="Hvis en svend har en grundløn på kr. 9.990,- / pr.14 dage, er den direkte timeløn før provisions beregning Kr. 135,- Men den virkelige timeløn er en helt anden."
@@ -117,7 +117,7 @@ text="Hvis en svend har en grundløn på kr. 9.990,- / pr.14 dage, er den direkt
 </Card03>
 <Card04>
 <CircleCard 
-titleImage="images/icons/recruit.svg"
+titleImage="images/icons/white/recruit.svg"
 backgroundColor="#E4B603"
 title="Rekruttering"
 text="Det er ressourcekrævende at ansætte nye medarbejdere, det kræver langt mere tid og overskud end, hvad man i første omgang forestiller sig. Typisk er en frisør leje en tidsbegrænset løsning, som anvendes ved barsel, pludselig opstået sygdom, travlhed eller meget periode orienteret."

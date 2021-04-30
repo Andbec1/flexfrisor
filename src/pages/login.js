@@ -42,13 +42,13 @@ export default function Login() {
       </Logo>
       <CardWrapper>
         <LoginCard 
-        iconImage="images/icons/Scissor_v001.svg"
+        iconImage="images/icons/white/Scissor_white_v001.svg"
         text="Frisør"
         link="/loginhairstylist"
         backgroundColor="#E78413"
         />
         <LoginCard 
-        iconImage="images/icons/Saloon_v001.svg"
+        iconImage="images/icons/white/barberPole_white_v001.svg"
         text="Mester"
         link="/loginsaloon"
         backgroundColor="#E4B603"

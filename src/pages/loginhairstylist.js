@@ -1,7 +1,3 @@
-import styled from "styled-components"
-import Head from 'next/head'
-import { H1, BodyMain } from "../components/styles/TextStyles"
-import Link from 'next/link'
 import RegisterForm from "../components/forms/registerUser"
 
 const Wrapper = styled.div` 
@@ -45,7 +41,7 @@ export default function LoginHairstylist() {
         <title>Flexfrisør - Login Frisør</title>
       </Head>
    <TitleWrapper>
-    <img src="images/icons/Scissor_v001.svg" className="scissor"/>
+    <img src="images/icons/orange/Scissor_orange_v001.svg" className="scissor"/>
     <Title>Frisør</Title>
    </TitleWrapper>
    <LoginWrapper>

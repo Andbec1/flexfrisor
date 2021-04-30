@@ -102,7 +102,7 @@ nutidens normer er utilstrækkelig og i længden uholdbar. Det bremser mulighede
 <CardWrapper>
   <Card01>
 <CircleCard
-titleImage="images/icons/wings_v001.svg"
+titleImage="images/icons/white/wings_white_v001.svg"
 backgroundColor="#E78413"
 title="Frihed"
 text="Ferie og fridage uden dårlig samvittighed, 
@@ -112,7 +112,7 @@ pauser efter eget valg mellem"
 </Card01>
 <Card02>
 <CircleCard 
-titleImage="images/icons/moneyBags_v001.svg"
+titleImage="images/icons/white/moneyBags_white_v001.svg"
 backgroundColor="#E78413"
 title="Indtjening"
 text="Få en høj fast timebetaling, startløn 175,- 
@@ -122,7 +122,7 @@ du når provisionen."
 </Card02>
 <Card03>
 <CircleCard 
-titleImage="images/icons/flexibility_v001.svg"
+titleImage="images/icons/white/flexibility_white_v001.svg"
 backgroundColor="#E78413"
 title="Fleksibilitet"
 text="Du bestemmer selv arbejdsmængden, og 
@@ -132,7 +132,7 @@ vælger."
 </Card03>
 <Card04>
 <CircleCard 
-titleImage="images/icons/heart_v001.svg"
+titleImage="images/icons/white/heart_white_v001.svg"
 backgroundColor="#E78413"
 title="Helbred"
 text="Mindre stressend hverdag. 
