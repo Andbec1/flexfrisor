@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export default function RegisterForm(props) {
+export default function registerHairstylistForm(props) {
     const registerUser = event => {
       event.preventDefault() // don't redirect the page
       // where we'll add our form logic

@@ -1,4 +1,7 @@
-import RegisterForm from "../components/forms/registerUser"
+import styled from "styled-components"
+import Head from 'next/head'
+import RegisterHairstylistForm from "../components/forms/registerHairstylistForm"
+import { H1 } from "../components/styles/TextStyles"
 
 const Wrapper = styled.div` 
  background: #F1E579;
@@ -23,7 +26,7 @@ color: #E78413;
 font-weight: normal;
 `
 
-const LoginWrapper = styled.div`
+const RegisterWrapper = styled.div`
 background: #E78413;
 width: 40rem;
 border-radius: 30px;
@@ -34,23 +37,23 @@ const ContentWrapper = styled.div`
 padding: 2rem;
 `
 
-export default function LoginHairstylist() {
+export default function RegisterHairstylist() {
   return (
     <Wrapper>
       <Head>
-        <title>Flexfrisør - Login Frisør</title>
+        <title>Flexfrisør - Opret Frisør</title>
       </Head>
    <TitleWrapper>
     <img src="images/icons/orange/Scissor_orange_v001.svg" className="scissor"/>
     <Title>Frisør</Title>
    </TitleWrapper>
-   <LoginWrapper>
+   <RegisterWrapper>
 <ContentWrapper>
-<RegisterForm 
+<RegisterHairstylistForm
 inputColor="#E78413"
 />
 </ContentWrapper>
-   </LoginWrapper>
+   </RegisterWrapper>
     </Wrapper>
   )
 }

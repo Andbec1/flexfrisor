@@ -27,7 +27,7 @@ color: #E4B603;
 font-weight: normal;
 `
 
-const LoginWrapper = styled.div`
+const RegisterWrapper = styled.div`
 background: #E4B603;
 width: 40rem;
 border-radius: 30px;
@@ -38,23 +38,23 @@ const ContentWrapper = styled.div`
 padding: 2rem;
 `
 
-export default function LoginSaloon() {
+export default function RegisterSaloon() {
   return (
     <Wrapper>
       <Head>
-        <title>Flexfrisør - Login Mester</title>
+        <title>Flexfrisør - Opret Mester</title>
       </Head>
    <TitleWrapper>
     <img src="images/icons/gold/barberPole_gold_v001.svg" className="scissor"/>
     <Title>Mester</Title>
    </TitleWrapper>
-   <LoginWrapper>
+   <RegisterWrapper>
 <ContentWrapper>
 <RegisterForm 
 inputColor="#E4B603"
 />
 </ContentWrapper>
-   </LoginWrapper>
+   </RegisterWrapper>
     </Wrapper>
   )
 }

@@ -243,7 +243,7 @@ export default function Example() {
                     Log ind
                   </a>
                   <a
-                    href="#"
+                    href="/register"
                     className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-700"
                   >
                     Opret
