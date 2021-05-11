@@ -8,7 +8,7 @@ const Wrapper = styled.div`
  padding-left: 1.875rem;
  padding-right: 1.875rem;
  margin: 0 auto;
- background: url(https://hips.hearstapps.com/ghk.h-cdn.co/assets/15/50/1449507755-cutting-wet-hair-bad.jpg);
+ background: url(https://www.niagaracollege.ca/trades/wp-content/uploads/sites/73/2019/08/i-hairstyle.jpg);
 background-size: cover;
 background-position: center;
 z-index: -1;

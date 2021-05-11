@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Link from 'next/link'
 
-export default function registerHairstylistForm(props) {
+export default function registerSaloonForm(props) {
     const registerUser = event => {
       event.preventDefault() // don't redirect the page
       // where we'll add our form logic
@@ -17,7 +17,7 @@ export default function registerHairstylistForm(props) {
         <label htmlFor="Password">Kode</label><br></br>
         <input id="password" type="password" autoComplete="password" required /><br></br>
         </PasswordWrapper>
-        <Link href="/registerhairstyliststep01">
+        <Link href="/registerHairstylistStep01">
         <ButtonWrapper inputColor={inputColor}>
         <button id="button" type="submit">Opret bruger</button>
         </ButtonWrapper>

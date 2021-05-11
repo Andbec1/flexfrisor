@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import Head from 'next/head'
-import RegisterHairStylistStep01Form from "../components/forms/registerHairStylistStep01Form"
+import RegisterHairStylistStep03Form from "../components/forms/registerHairStylistStep03Form"
 import { H3 } from "../components/styles/TextStyles"
 
 const Wrapper = styled.div` 
@@ -32,10 +32,10 @@ export default function RegisterHairstylistStep01() {
         <title>Flexfrisør - Opret Frisør</title>
       </Head>
    <TitleWrapper>
-    <Title>Opret profil - Step 1 af 4</Title>
+    <Title>Opret profil - Step 3 af 4</Title>
    </TitleWrapper>
 <ContentWrapper>
-<RegisterHairStylistStep01Form 
+<RegisterHairStylistStep03Form 
 inputColor="#E78413"
 borderColor="#E78413"
 />
