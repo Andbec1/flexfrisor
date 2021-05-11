@@ -25,7 +25,7 @@ const ContentWrapper = styled.div`
 padding: 0 2rem;
 `
 
-export default function RegisterHairstylistStep01() {
+export default function RegisterHairstylistStep03() {
   return (
     <Wrapper>
       <Head>

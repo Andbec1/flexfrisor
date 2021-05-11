@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Head from 'next/head'
 import { H1 } from "../components/styles/TextStyles"
-import loginForm from "../components/forms/loginForm"
+import LoginForm from "../components/forms/loginForm"
 
 const Wrapper = styled.div` 
  background: #F1E579;
@@ -44,9 +44,9 @@ export default function Login() {
    </TitleWrapper>
    <RegisterWrapper>
 <ContentWrapper>
-<loginForm 
-inputColor="#E78413"
-/>
+  <LoginForm 
+  inputColor="#E78413"
+  />
 </ContentWrapper>
    </RegisterWrapper>
     </Wrapper>

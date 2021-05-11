@@ -1,13 +1,15 @@
 import styled from "styled-components"
+import Link from 'next/link'
 
-export default function loginForm(props) {
-    const loginForm = event => {
+
+export default function LoginForm(props) {
+    const loginUser = event => {
       event.preventDefault() // don't redirect the page
       // where we'll add our form logic
     }
     const { inputColor } = props
     return (
-      <form onSubmit={loginForm}>
+      <form onSubmit={loginUser}>
         <EmailWrapper inputColor={inputColor}>
         <label htmlFor="email">Email</label><br></br>
         <input id="email" type="text" autoComplete="email" required /><br></br>
@@ -16,9 +18,11 @@ export default function loginForm(props) {
         <label htmlFor="Password">Kode</label><br></br>
         <input id="password" type="password" autoComplete="password" required /><br></br>
         </PasswordWrapper>
+        <Link href="/login">
         <ButtonWrapper inputColor={inputColor}>
-        <button id="button" type="submit">Opret bruger</button>
-        </ButtonWrapper>      
+        <button id="button" type="submit">Log ind</button>
+        </ButtonWrapper>
+        </Link>
       </form>
     )
   }

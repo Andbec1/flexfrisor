@@ -1,8 +1,7 @@
 import styled from "styled-components"
 import Head from 'next/head'
 import { H1, BodyMain } from "../components/styles/TextStyles"
-import Link from 'next/link'
-import registerSaloonForm from "../components/forms/registerSaloonForm"
+import RegisterSaloonForm from "../components/forms/registerSaloonForm"
 
 const Wrapper = styled.div` 
  background: #F1E579;
@@ -50,9 +49,9 @@ export default function RegisterSaloon() {
    </TitleWrapper>
    <RegisterWrapper>
 <ContentWrapper>
-<registerSaloonForm 
-inputColor="#E4B603"
-/>
+  <RegisterSaloonForm 
+  inputColor="#E4B603"
+  />
 </ContentWrapper>
    </RegisterWrapper>
     </Wrapper>
