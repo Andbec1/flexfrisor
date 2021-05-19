@@ -61,8 +61,8 @@ const InfoBox = styled.div`
     max-width: 30rem;
     margin: 2rem;
     border-radius: 30px;
+    height: 13rem;
     padding: 2rem;
-    height: 10rem;
     display: grid;
     align-items: center;
     justify-items: center;

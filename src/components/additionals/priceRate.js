@@ -7,10 +7,9 @@ border-radius: 50%;
 width: 30rem;
 height: 30rem;
 display: grid;
-grid-template-rows: 5rem 10rem 9rem 1rem;
-grid-gap: 0;
-justify-items: center;
+justify-content: center;
 align-items: center;
+margin: 0 auto;
 `
 
 const Text01 = styled(H2)`
@@ -18,36 +17,18 @@ text-align: center;
 font-weight: normal;
 text-transform: uppercase;
 color: #E4B603;
-`
+line-height: 2em;
 
-const Text02 = styled(H1)`
-text-align: center;
-font-weight: normal;
-font-size: 13em;
+.two_sixtyfive {
+font-size: 4em;
 color: #E78413;
-`
-
-const Text03 = styled(H2)`
-text-align: center;
-font-weight: normal;
-text-transform: uppercase;
-color: #E4B603;
-`
-
-const Text04 = styled(H2)`
-text-align: center;
-font-weight: normal;
-text-transform: uppercase;
-color: #E4B603;
+}
 `
 
 export default function PriceRate() {
     return (
       <Wrapper>
-          <Text01>Fra</Text01>
-          <Text02>265</Text02>
-          <Text03>Kroner i timen</Text03>
-          <Text04>Exl. Moms*</Text04>
+          <Text01>Fra<br></br><span className="two_sixtyfive">265</span><br></br>Kroner i timen<br></br>Exl. Moms*</Text01>
       </Wrapper>
     )
   }

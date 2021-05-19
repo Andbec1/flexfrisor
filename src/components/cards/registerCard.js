@@ -31,7 +31,7 @@ text-align: center;
 font-weight: normal;
 `
 
-export default function LoginCard(props) {
+export default function RegisterCard(props) {
     const { iconImage, text, link, backgroundColor } = props
   return (
     <Wrapper>

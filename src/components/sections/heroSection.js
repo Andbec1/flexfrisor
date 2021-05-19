@@ -8,7 +8,7 @@ const Wrapper = styled.div`
  padding-left: 1.875rem;
  padding-right: 1.875rem;
  margin: 0 auto;
- background: url(https://hips.hearstapps.com/ghk.h-cdn.co/assets/15/50/1449507755-cutting-wet-hair-bad.jpg);
+ background: url(https://www.niagaracollege.ca/trades/wp-content/uploads/sites/73/2019/08/i-hairstyle.jpg);
 background-size: cover;
 background-position: center;
 z-index: -1;
@@ -42,13 +42,13 @@ export default function heroSection() {
       <Intro>Vi får <span className="fleksibilitet">fleksibilitet</span> ind i <span className="frisørfaget">frisørfaget</span></Intro>
       <CardWrapper>
         <HeroCard
-            iconImage="images/icons/Scissor_v001.svg" 
+            iconImage="images/icons/yellow/Scissor_yellow_v001.svg" 
             text="Til dig som
             er frisør"
             link="/hairstylist"
         />
         <HeroCard 
-          iconImage="images/icons/barberPole_v001.svg"
+          iconImage="images/icons/yellow/barberPole_yellow_v001.svg"
           text="Til dig som er mester"
           link="/saloon"
         />

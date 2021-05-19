@@ -12,12 +12,12 @@ color: #E4B603;
 text-align: center;
 font-weight: normal;
 margin-bottom: 5rem;
-margin-right: 20rem;
 `
 
 const CardWrapper = styled.div`
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+grid-gap: 1rem;
 `
 
 export default function SalaryCalcSection() {

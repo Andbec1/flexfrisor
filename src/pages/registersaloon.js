@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Head from 'next/head'
-import { H1 } from "../components/styles/TextStyles"
-import LoginForm from "../components/forms/loginForm"
+import { H1, BodyMain } from "../components/styles/TextStyles"
+import RegisterSaloonForm from "../components/forms/registerSaloonForm"
 
 const Wrapper = styled.div` 
  background: #F1E579;
@@ -15,15 +15,19 @@ justify-content: center;
 align-items: center;
 margin-bottom: 2rem;
 
+.scissor {
+    width: 8rem;
+    height: 8rem;
+}
 `
 
 const Title = styled(H1)`
-color: #E78413;
+color: #E4B603;
 font-weight: normal;
 `
 
 const RegisterWrapper = styled.div`
-background: #E78413;
+background: #E4B603;
 width: 40rem;
 border-radius: 30px;
 margin: 0 auto;
@@ -33,22 +37,24 @@ const ContentWrapper = styled.div`
 padding: 2rem;
 `
 
-export default function Login() {
+export default function RegisterSaloon() {
   return (
     <Wrapper>
       <Head>
-        <title>Flexfrisør - Log ind</title>
+        <title>Flexfrisør - Opret Mester</title>
       </Head>
    <TitleWrapper>
-    <img src="images/logos/logo02_v003.png" className="logo"/>
+    <img src="images/icons/gold/barberPole_gold_v001.svg" className="scissor"/>
+    <Title>Mester</Title>
    </TitleWrapper>
    <RegisterWrapper>
 <ContentWrapper>
-  <LoginForm 
-  inputColor="#E78413"
+  <RegisterSaloonForm 
+  inputColor="#E4B603"
   />
 </ContentWrapper>
    </RegisterWrapper>
     </Wrapper>
   )
 }
+

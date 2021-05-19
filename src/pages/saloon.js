@@ -19,7 +19,7 @@ export default function Saloon() {
         <Head>
           <title>Flexfrisør - Mester</title>
         </Head>
-        <SaloonNav />
+        {/* <SaloonNav /> */}
         <SaloonIntroSection />
         <SaloonInfoSection />
         <SalarySection />

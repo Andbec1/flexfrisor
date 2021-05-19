@@ -18,22 +18,22 @@ export default function InfoSection() {
       <Wrapper>
         <InfoWrapper>
           <InfoCounter 
-            icon="images/icons/Scissor_v001.svg"
+            icon="images/icons/orange/Scissor_orange_v001.svg"
             title="654"
             text="Frisører"
           />
           <InfoCounter 
-            icon="images/icons/location.svg"
+            icon="images/icons/orange/location.svg"
             title="12.501"
             text="Saloner hjulpet"
           />
           <InfoCounter 
-            icon="images/icons/watch.svg"
+            icon="images/icons/orange/watch.svg"
             title="512.365"
             text="Timer klippet"
           />
           <InfoCounter 
-            icon="images/icons/hair_v001.svg"
+            icon="images/icons/orange/hair_orange_v001.svg"
             title="12.054.025"
             text="Hårstrå klippet"
           />

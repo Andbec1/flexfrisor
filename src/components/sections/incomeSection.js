@@ -4,13 +4,13 @@ import HourRate from "../additionals/hourRate"
 import { BodyMain, H2, BodyIntro } from "../styles/TextStyles"
 
 const Wrapper = styled.div`
-width: 100%;
 background: #E78413;
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 align-items: center;
-padding-left: 20rem;
-z-index: 1;
+justify-content: center;
+margin: 0 auto;
+padding: 0 2rem;
 `
 
 
