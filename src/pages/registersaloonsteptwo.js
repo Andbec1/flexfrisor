@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Head from 'next/head'
 import { H3 } from "../components/styles/TextStyles"
-import RegisterSaloonStep02Form from "../components/forms/registerSaloonStep02Form"
+import RegisterSaloonStepTwoForm from "../components/forms/registerSaloonStepTwoForm"
 
 const Wrapper = styled.div` 
  background: #F1E579;
@@ -25,7 +25,7 @@ const ContentWrapper = styled.div`
 padding: 0 2rem;
 `
 
-export default function RegisterSaloonStep02() {
+export default function RegisterSaloonStepTwo() {
   return (
     <Wrapper>
       <Head>
@@ -35,7 +35,7 @@ export default function RegisterSaloonStep02() {
     <Title>Opret profil - Step 2 af 3</Title>
    </TitleWrapper>
 <ContentWrapper>
-    <RegisterSaloonStep02Form 
+    <RegisterSaloonStepTwoForm 
     inputColor="#E4B603"
     />
 </ContentWrapper>

@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Link from 'next/link'
 
-export default function RegisterHairStylistStep01Form(props) {
+export default function RegisterHairStylistStepOneForm(props) {
     const registerUser = event => {
       event.preventDefault() // don't redirect the page
       // where we'll add our form logic
@@ -71,7 +71,7 @@ export default function RegisterHairStylistStep01Form(props) {
         <input id="upload" type="file" accept="image/*" required /><br></br>
         </UploadWrapper>
         </FormWrapper>
-        <Link href="/registerhairstyliststep02">
+        <Link href="/registerhairstyliststeptwo">
         <NextButtonWrapper inputColor={inputColor}>
         <button id="button" type="submit">Næste</button>
         </NextButtonWrapper>
