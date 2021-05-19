@@ -38,3 +38,7 @@ Example for the dependency "styled-components":
 ```bash
 yarn add styled-components
 ```
+
+## Site Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6aeddfcd-b867-4f8d-8e43-4e031906f184/deploy-status)](https://app.netlify.com/sites/flexfrisor/deploys)
