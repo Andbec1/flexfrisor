@@ -18,7 +18,7 @@ export default function registerHairstylistForm(props) {
         <label htmlFor="Password">Kode</label><br></br>
         <input id="password" type="password" autoComplete="password" required /><br></br>
         </PasswordWrapper>
-        <Link href="/registerhairstyliststep01">
+        <Link href="/registerhairstyliststepone">
         <ButtonWrapper inputColor={inputColor}>
         <button id="button" type="submit">Opret bruger</button>
         </ButtonWrapper>

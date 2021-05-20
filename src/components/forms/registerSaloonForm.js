@@ -17,7 +17,7 @@ export default function registerSaloonForm(props) {
         <label htmlFor="Password">Kode</label><br></br>
         <input id="password" type="password" autoComplete="password" required /><br></br>
         </PasswordWrapper>
-        <Link href="/registersaloonstep01">
+        <Link href="/registersaloonstepone">
         <ButtonWrapper inputColor={inputColor}>
         <button id="button" type="submit">Opret bruger</button>
         </ButtonWrapper>

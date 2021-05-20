@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Link from 'next/link'
 
-export default function RegisterSaloonStep02Form(props) {
+export default function RegisterSaloonStepTwoForm(props) {
     const registerUser = event => {
       event.preventDefault() // don't redirect the page
       // where we'll add our form logic
@@ -10,7 +10,7 @@ export default function RegisterSaloonStep02Form(props) {
     return (
       <form onSubmit={registerUser}>
         <Wrapper>
-            <Link href="/registersaloonstep01">
+            <Link href="/registersaloonstepone">
                 <PrevButtonWrapper inputColor={inputColor}>
                     <button id="button" type="submit">Forrige</button>
                 </PrevButtonWrapper>

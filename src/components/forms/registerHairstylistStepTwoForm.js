@@ -2,7 +2,7 @@ import styled from "styled-components"
 import Link from 'next/link'
 import Image from "next/image";
 
-export default function RegisterHairStylistStep02Form(props) {
+export default function RegisterHairStylistStepTwoForm(props) {
     const registerUser = event => {
       event.preventDefault() // don't redirect the page
       // where we'll add our form logic
@@ -11,7 +11,7 @@ export default function RegisterHairStylistStep02Form(props) {
     return (
       <form onSubmit={registerUser}>
         <Wrapper>
-            <Link href="/registerhairstyliststep01">
+            <Link href="/registerhairstyliststepone">
                 <PrevButtonWrapper inputColor={inputColor}>
                     <button id="button" type="submit">Forrige</button>
                 </PrevButtonWrapper>
@@ -42,7 +42,7 @@ export default function RegisterHairStylistStep02Form(props) {
                     <input id="certificate" name="certificate" type="file" accept="file_extention(.jpg, .png, .doc, .docx, .pdf)" required /><br></br>
                 </CertificateWrapper>
             </FormWrapper>
-            <Link href="/registerhairstyliststep03">
+            <Link href="/registerhairstyliststepthree">
                 <NextButtonWrapper inputColor={inputColor}>
                     <button id="button" type="submit">Næste</button>
             </NextButtonWrapper>
