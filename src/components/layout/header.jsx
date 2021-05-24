@@ -16,87 +16,91 @@ import {
   BookOpenIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import { useContext } from "react";
+import { UserContext } from "../../lib/context";
 
- const features = [
-   {
-     name: "Analytics",
-     href: "#",
-     description:
-       "Get a better understanding of where your traffic is coming from.",
-     icon: ChartBarIcon,
-   },
-   {
-     name: "Engagement",
-     href: "#",
-     description: "Speak directly to your customers in a more meaningful way.",
-     icon: CursorClickIcon,
-   },
-   {
-     name: "Security",
-     href: "#",
-     description: "Your customers' data will be safe and secure.",
-     icon: BookOpenIcon,
-   },
-   {
-     name: "Integrations",
-     href: "#",
-     description: "Connect with third-party tools that you're already using.",
-     icon: ViewGridIcon,
-   },
-   {
-     name: "Automations",
-     href: "#",
-     description:
-       "Build strategic funnels that will drive your customers to convert",
-     icon: RefreshIcon,
-   },
- ];
- const callsToAction = [
-   { name: "Watch Demo", href: "#", icon: PlayIcon },
-   { name: "Contact Sales", href: "#", icon: PhoneIcon },
- ];
- const resources = [
-   {
-     name: "Tilmeldelse",
-     description: "Tilmeld dig hvad end du er frisør eller mester.",
-     href: "#",
-     icon: PlusCircleIcon,
-   },
-   {
-     name: "Nyheder",
-     description: "Læs mere om nye tiltag hos Flexfrisør.",
-     href: "#",
-     icon: BookmarkAltIcon,
-   },
-   {
-     name: "Events",
-     description:
-       "Se hvilke møder og andre begivenheder vi planlægger i nærheden af dig.",
-     href: "#",
-     icon: CalendarIcon,
-   },
-   {
-     name: "Blog",
-     description: "Lær om nye spændende tiltag og underholdende historier.",
-     href: "#",
-     icon: BookOpenIcon,
-   },
- ];
- const recentPosts = [
-   { id: 1, name: "Sådan bliver du en bedre frisør", href: "#" },
-   {
-     id: 2,
-     name: "Har du også styr på dine timer?",
-     href: "#",
-   },
-   { id: 3, name: "Den rigtige saks", href: "#" },
- ];
+const features = [
+  {
+    name: "Analytics",
+    href: "#",
+    description:
+      "Get a better understanding of where your traffic is coming from.",
+    icon: ChartBarIcon,
+  },
+  {
+    name: "Engagement",
+    href: "#",
+    description: "Speak directly to your customers in a more meaningful way.",
+    icon: CursorClickIcon,
+  },
+  {
+    name: "Security",
+    href: "#",
+    description: "Your customers' data will be safe and secure.",
+    icon: BookOpenIcon,
+  },
+  {
+    name: "Integrations",
+    href: "#",
+    description: "Connect with third-party tools that you're already using.",
+    icon: ViewGridIcon,
+  },
+  {
+    name: "Automations",
+    href: "#",
+    description:
+      "Build strategic funnels that will drive your customers to convert",
+    icon: RefreshIcon,
+  },
+];
+const callsToAction = [
+  { name: "Watch Demo", href: "#", icon: PlayIcon },
+  { name: "Contact Sales", href: "#", icon: PhoneIcon },
+];
+const resources = [
+  {
+    name: "Tilmeldelse",
+    description: "Tilmeld dig hvad end du er frisør eller mester.",
+    href: "#",
+    icon: PlusCircleIcon,
+  },
+  {
+    name: "Nyheder",
+    description: "Læs mere om nye tiltag hos Flexfrisør.",
+    href: "#",
+    icon: BookmarkAltIcon,
+  },
+  {
+    name: "Events",
+    description:
+      "Se hvilke møder og andre begivenheder vi planlægger i nærheden af dig.",
+    href: "#",
+    icon: CalendarIcon,
+  },
+  {
+    name: "Blog",
+    description: "Lær om nye spændende tiltag og underholdende historier.",
+    href: "#",
+    icon: BookOpenIcon,
+  },
+];
+const recentPosts = [
+  { id: 1, name: "Sådan bliver du en bedre frisør", href: "#" },
+  {
+    id: 2,
+    name: "Har du også styr på dine timer?",
+    href: "#",
+  },
+  { id: 3, name: "Den rigtige saks", href: "#" },
+];
 
- function classNames(...classes) {
-   return classes.filter(Boolean).join(" ");
- }
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 
-export default function Example() {
+export default function Header() {
+  const { user, username } = useContext(UserContext);
+
   return (
     <div className="relative bg-gray-50">
       <Popover className="relative bg-white shadow">
@@ -235,20 +239,36 @@ export default function Example() {
                     )}
                   </Popover>
                 </Popover.Group>
-                <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                  <a
-                    href="/login"
-                    className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
-                  >
-                    Log ind
-                  </a>
-                  <a
-                    href="/register"
-                    className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-700"
-                  >
-                    Opret
-                  </a>
-                </div>
+                {/* user is not signed OR has not created username */}
+                {!username && (
+                  <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                    <a
+                      href="/enter"
+                      className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+                    >
+                      Log ind
+                    </a>
+                    <a
+                      href="/enter"
+                      className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-600 hover:bg-yellow-700"
+                    >
+                      Opret
+                    </a>
+                  </div>
+                )}
+                {/* user is signed-in and has username */}
+                {username && (
+                  <>
+                    <li>
+                      <Link href={`/${username}`}>
+                        <img
+                          src={user?.photoURL}
+                          className="bg-indigo-700 flex text-sm rounded-full text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white w-10"
+                        />
+                      </Link>
+                    </li>
+                  </>
+                )}
               </div>
             </div>
 
